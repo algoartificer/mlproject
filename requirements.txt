@@ -1,4 +1,10 @@
+### Reminder: set individual versions @ end of project
+
 pandas
-numpy
+numpy<2
 seaborn
--e .
+scikit-learn
+matplotlib
+catboost
+xgboost
+#-e .
