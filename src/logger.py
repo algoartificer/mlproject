@@ -17,9 +17,9 @@ logging.basicConfig(
 
 )
 
-if __name__=="__main__":
+if __name__=="main":
     try:
         a=1/0
-    except:
-        logging.info("Divide by 0 Error")
-        raise CustomException
+    except Exception as e:
+        logging.info("Divide by zero")
+        raise CustomException(e,sys)
