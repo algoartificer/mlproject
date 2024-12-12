@@ -14,6 +14,9 @@ from src.logger import logging
 from src.utils import save_object
 
 
+#Q&A: Should .yml file be used to  call numerical + categorical columns? 
+##### Should .yml be used for anything else in components file?
+
 @dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path=os.path.join('artifacts',"preprocessor.pkl")
