@@ -9,7 +9,6 @@ catboost
 xgboost
 dill
 flask
-#pickle
 optuna
 flask
 #-e .
