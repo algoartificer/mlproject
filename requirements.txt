@@ -10,5 +10,6 @@ xgboost
 dill
 flask
 optuna
+flask_cors
 flask
 #-e .
